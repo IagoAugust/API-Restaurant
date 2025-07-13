@@ -64,10 +64,10 @@ npm run dev
 ```json
 {
   "id": 1,
-	"name": "Soda Orange",
-	"price": 20,
-	"created_at": "2025-07-06 00:00:00",
-	"updated_at": "2025-07-06 00:00:00"
+  "name": "Soda Orange",
+  "price": 20,
+  "created_at": "2025-07-06 00:00:00",
+  "updated_at": "2025-07-06 00:00:00"
 }
 ```
 
@@ -76,8 +76,8 @@ npm run dev
 **REQUEST**
 ```json
 {
-	"name": "Soda Orange",
-	"price": 15.00
+  "name": "Soda Orange",
+  "price": 15.00
 }
 ```
 
@@ -90,7 +90,7 @@ npm run dev
 
 **REQUEST**
 ```json
-{
+{ 
   "name": "Soda Cola",
   "price": "20.00"
 }
@@ -122,9 +122,9 @@ npm run dev
 ```json
 {
   "id": 1,
-	"table_number": 1,
-	"created_at": "2025-07-06 00:00:00",
-	"updated_at": "2025-07-06 00:00:00"
+  "table_number": 1,
+  "created_at": "2025-07-06 00:00:00",
+  "updated_at": "2025-07-06 00:00:00"
 }
 ```
 
@@ -142,9 +142,9 @@ npm run dev
 ```json
 {
   "id": 1,
-	"table_id": 1,
-	"opened_at": "2025-07-06 00:00:00",
-	"closed_at": "null"
+  "table_id": 1,
+  "opened_at": "2025-07-06 00:00:00",
+  "closed_at": "null"
 }
 ```
 
@@ -153,7 +153,7 @@ npm run dev
 **REQUEST**
 ```json
 {
-	"table_id": 2
+  "table_id": 2
 }
 ```
 
@@ -182,15 +182,15 @@ npm run dev
 **RESPONSE**
 ```json
 {
-	"id": 2,
-	"table_session_id": 2,
-	"product_id": 40,
-	"name": "Soda Cola",
-	"price": 10,
-	"quantity": 2,
-	"Total": 20,
-	"created_at": "2025-07-12 00:00:00",
-	"updated_at": "2025-07-12 00:00:00"
+  "id": 2,
+  "table_session_id": 2,
+  "product_id": 40,
+  "name": "Soda Cola",
+  "price": 10,
+  "quantity": 2,
+  "Total": 20,
+  "created_at": "2025-07-12 00:00:00",
+  "updated_at": "2025-07-12 00:00:00"
 }
 ```
 
@@ -199,8 +199,8 @@ npm run dev
 **RESPONSE**
 ```json
 {
-	"total": 20,
-	"quantity": 1
+  "total": 20,
+  "quantity": 1
 }
 ```
 
@@ -209,9 +209,9 @@ npm run dev
 **REQUEST**
 ```json
 {
-	"table_session_id": 2,
-	"product_id": 40,
-	"quantity": 2
+  "table_session_id": 2,
+  "product_id": 40,
+  "quantity": 2
 }
 ```
 
